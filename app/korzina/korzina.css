@@ -1,0 +1,4 @@
+.card-con{
+    display: flex;
+    flex-direction: row;
+}

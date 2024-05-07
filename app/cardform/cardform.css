@@ -1,0 +1,212 @@
+.cardsss{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-1{
+    width: 100%;  
+    margin-left: 0;
+    margin-top: 2rem;
+    color: white;
+    background-color: black; 
+    margin-bottom: 2rem;
+}
+/* From uiverse.io by @alexruix */
+.input {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    height: 2.5rem;
+    margin-top: 2rem;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+   }
+   
+   .input::placeholder {
+    color: #777;
+   }
+   
+   .input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   #select {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    height: 2.5rem;
+    margin-top: 2rem;
+   }
+   
+   #select:focus, select:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+   }
+   
+   #select::placeholder {
+    color: #777;
+   }
+   
+   #select:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   button {
+    width: 1.5rem;
+    margin-left: 1rem;
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: royalblue;
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+  }
+  
+  button span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid royalblue;
+  }
+  
+  button span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+  }
+  
+  button:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: royalblue;
+  }
+  
+  button:hover {
+    color: white;
+  }
+  
+  button:active span::before {
+    background: #2751cd;
+  }
+   .buttonss{
+    display: flex;
+    margin-top: 1rem;
+   }
+   .text-9{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    margin-left: 1.1rem;
+   }
+   
+   .button-1 {
+    margin-top: 1rem;
+    width: 100%;
+    height: 2.5rem;
+    --bg: #000;
+    --hover-bg: white;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button-1:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button-1:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+  .cyberpunk-checkbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .cyberpunk-checkbox :hover{
+    border: none;
+  }
+  
+  
+  .cyberpunk-checkbox:before {
+    content: "";
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cyberpunk-checkbox:checked:before {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .cyberpunk-checkbox-label {
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+  }
+   
+   

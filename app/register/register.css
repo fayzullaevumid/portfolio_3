@@ -1,0 +1,236 @@
+.input {
+
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width: 15rem;
+    height: 1.7rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+   }
+ 
+   .input:focus, input:hover {
+   
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+   }
+
+   .input::placeholder {
+    color: #777;
+   }
+   .text{
+    margin-left: 1rem;
+    margin-top: 1rem    ;
+   }
+   
+   .input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+   #select {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    height: 2.5rem;
+    margin-top: 2rem;
+   }
+   
+   #select:focus, select:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+   }
+   
+   #select::placeholder {
+    color: #777;
+   }
+   
+   #select:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+   }
+ 
+   form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+   .text-4{
+    margin-left: 1rem;
+    margin-top: 1rem;
+   }
+   .login-card{
+    margin-top: 10rem;
+    margin-left: 37rem;
+    width: 17rem;
+    height: 15rem;
+    border-radius: 10px;
+    border: 2px solid  rgb(34, 34, 34);
+   }
+   #button-1{
+    margin-left: 1rem;
+   }
+   .loader {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 8rem;
+    right: 6.3rem;
+  }
+  
+  .loader-text {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    color: black;
+    animation: text_713 3.5s ease both infinite;
+    font-size: .8rem;
+    letter-spacing: 1px;
+  }
+  
+  .load {
+    background-color: black;
+    border-radius: 50px;
+    display: block;
+    height: 16px;
+    width: 16px;
+    bottom: 0;
+    position: absolute;
+    transform: translateX(64px);
+    animation: loading_713 3.5s ease both infinite;
+  }
+  
+  .load::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(54, 54, 54);
+    border-radius: inherit;
+    animation: loading2_713 3.5s ease both infinite;
+  }
+  
+  @keyframes text_713 {
+    0% {
+      letter-spacing: 1px;
+      transform: translateX(0px);
+    }
+  
+    40% {
+      letter-spacing: 2px;
+      transform: translateX(26px);
+    }
+  
+    80% {
+      letter-spacing: 1px;
+      transform: translateX(32px);
+    }
+  
+    90% {
+      letter-spacing: 2px;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      letter-spacing: 1px;
+      transform: translateX(0px);
+    }
+  }
+  
+  @keyframes loading_713 {
+    0% {
+      width: 16px;
+      transform: translateX(0px);
+    }
+  
+    40% {
+      width: 100%;
+      transform: translateX(0px);
+    }
+  
+    80% {
+      width: 16px;
+      transform: translateX(64px);
+    }
+  
+    90% {
+      width: 100%;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      width: 16px;
+      transform: translateX(0px);
+    }
+  }
+  
+  @keyframes loading2_713 {
+    0% {
+      transform: translateX(0px);
+      width: 16px;
+    }
+  
+    40% {
+      transform: translateX(0%);
+      width: 80%;
+    }
+  
+    80% {
+      width: 100%;
+      transform: translateX(0px);
+    }
+  
+    90% {
+      width: 80%;
+      transform: translateX(15px);
+    }
+  
+    100% {
+      transform: translateX(0px);
+      width: 16px;
+    }
+  }
+  .button22 {
+    margin-top:1.5rem ;
+    margin-left: 1rem;
+    width: 15rem;
+    height: 1.7rem;
+    --bg: #000;
+    --hover-bg: white;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button22:hover {
+    color: var(--hover-text);
+    transform: translate(-0.15rem, -0.15rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button22:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+  
+  

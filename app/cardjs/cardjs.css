@@ -1,0 +1,54 @@
+.cardss{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 14rem;
+    height: 18rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+}
+img{
+    width: 14rem;
+    height: 16rem;
+}
+.delete{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 14rem;
+    color: white;
+    background-color: black;
+    margin-left: 0;
+}
+.button44 {
+    margin-bottom: 2rem;
+    margin-top: 0;
+    margin-left: 0;
+    width: 14rem;
+    height: 2.2rem;
+    --bg: #000;
+    --hover-bg: white;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button44:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button44:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
